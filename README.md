@@ -1,4 +1,4 @@
-# hacker-theme
+# Academic Weapon
 
 
 ![](https://raw.githubusercontent.com/thelearn-tech/img/main/IMG_20210830_121408.jpg)
