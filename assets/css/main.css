@@ -116,3 +116,45 @@ ol {display: table; margin-left: 0; margin-right: auto; list-style-position: ins
 .topp {padding-top: 10px;}
 .left {padding-left: 30px}
 .mediumsize {font-size: 19px;}
+
+.accordion {
+  background-color: #212121;
+  color: #B5E853;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-left: dashed #B5E853;
+  outline: none;
+  transition: 0.4s;
+  margin-left: 8px;
+  margin-top: 16px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #363636;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  margin-left: 8px;
+  background-color: #0e0e0e;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
