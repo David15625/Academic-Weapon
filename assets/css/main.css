@@ -31,7 +31,7 @@ font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, mon
 }
 .button {
 text-decoration: none;
-text-align: left;
+text-align: center;
 background-color: #121212;
 color: white;
 border: 2px solid #000000;
@@ -87,11 +87,8 @@ max-height: 100%;
 display: block;
 }
 .horizontalscroll {
-background-color: #242424;
-font-style: italic;
 overflow: auto;
 white-space: nowrap;
-color: #FFFFFF;
 padding: 10px;
 }
 ul {list-style: none;}
